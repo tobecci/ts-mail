@@ -1,6 +1,6 @@
-# codeinn-whatsapp-bot
+# Typescript boilerplate
 
-useful whatsapp bot
+a typescipt boiler plate for basic nodejs project
 
 # Starting the project
 
