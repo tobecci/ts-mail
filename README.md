@@ -1,6 +1,6 @@
-# Typescript boilerplate
+# Typescript Mail Service
 
-a typescipt boiler plate for basic nodejs project
+a typescipt email sender
 
 # Starting the project
 
