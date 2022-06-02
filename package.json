@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:ts": "./node_modules/.bin/tsc --watch",
-    "start:js": "./node_modules/.bin/nodemon ./dist/index.js",
-    "start:dev": "./node_modules/.bin/concurrently \"npm run start:ts\" \"npm run start:js\"",
-    "start": "./node_modules/.bin/tsc && node ./dist/index.js"
+    "start:ts": "tsc --watch",
+    "start:js": "nodemon ./dist/index.js",
+    "start:dev": "tsc && concurrently \"npm run start:ts\" \"npm run start:js\"",
+    "start": "tsc && node ./dist/index.js"
   },
   "repository": {
     "type": "git",
